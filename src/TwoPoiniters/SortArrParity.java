@@ -1,10 +1,13 @@
 package TwoPoiniters;
 
+import java.util.Arrays;
+
 public class SortArrParity {
     public static void main(String[] args) {
-        System.out.println();
+        int arr [] = {1,4,5,8,5,};
+        System.out.println(Arrays.toString(sortArrayByParityII(arr)));
     }
-    public int[] sortArrayByParityII(int[] nums) {
+    public static int[] sortArrayByParityII(int[] nums) {
 
         int [] res = new int [nums.length];
         int oddIndex = 1;
